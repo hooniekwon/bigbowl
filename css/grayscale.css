@@ -185,6 +185,16 @@ a:focus {
     }
 }
 
+.contact{
+    margin-top: -200px;
+
+}
+.contactText{
+    position: absolute;
+    z-index: 1;
+    padding-left: 50px;
+    padding-top: 20px;
+}
 .btn-circle {
     width: 70px;
     height: 70px;
