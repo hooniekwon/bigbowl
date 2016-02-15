@@ -68,7 +68,9 @@ a:focus {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
+.navbar-fixed-top{
 
+}
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
