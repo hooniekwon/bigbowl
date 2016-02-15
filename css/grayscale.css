@@ -191,6 +191,20 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
+    color: #AAAAAA;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#menu {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
     color: #fff;
     background: url(../img/about-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
