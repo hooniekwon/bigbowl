@@ -1,0 +1,153 @@
+"categories" :  
+[
+	{"name" : "stir-fry noodle"},
+	{"name" : "soup and side dishes"},
+	{"name" : "home-made rice dishes"},
+	{"name" : "fried rice"},
+	{"name" : "brown sauce"},
+	{"name" : "noodle special"}
+]
+
+"stir-fry noodle" :  
+[
+	{"option 1" : "stir-fry protein", "option 2" : "noodle"}
+]
+
+"soup and side dishes" :  
+[
+	{"option 1" : "soup and side dish"}
+]
+
+"home-made rice dishes" :  
+[
+	{"option 1" : "rice dish"}
+]
+
+"fried rice" :  
+[
+	{"option 1" : "fried rice protein", "option 2" : "fried rice sauce"}
+]
+
+"brown sauce" :  
+[
+	{"option 1" : "brown sauce protein", "option 2" : "brown sauce style", "option 3" : "brown sauce carb"}
+]
+
+"noodle special" : 
+[
+	{"option 1" : "noodle special dish"}
+]
+
+"stir-fry protein" :  
+[
+	{"name" : "shrimp", "vegetarian" : "no", "price" : "655"},
+	{"name" : "chicken", "vegetarian" : "no", "price" : "655"},
+	{"name" : "fried chicken leg", "vegetarian" : "no", "price" : "735"},
+	{"name" : "fried pork chop", "vegetarian" : "no", "price" : "735"},
+	{"name" : "beef", "vegetarian" : "no", "price" : "655"},
+	{"name" : "roast pork", "vegetarian" : "no", "price" : "655"},
+	{"name" : "crispy tender chicken", "vegetarian" : "no", "price" : "735"},
+	{"name" : "vegetables", "vegetarian" : "yes", "price" : "655"}
+]
+
+"noodle" :  
+[
+	{"name" : "regular(flour)", "price" : "0"},
+	{"name" : "ho-fun", "price" : "35"},
+	{"name" : "pho", "price" : "35"},
+	{"name" : "udon", "price" : "35"},
+	{"name" : "rice noodle", "price" : "0"},
+	{"name" : "egg noodle", "price" : "35"}
+
+]
+
+"soup and side dish" : 
+[
+	{"name" : "miso soup small", "size" : "small", "vegetarian" : "", "price" : "160"},
+	{"name" : "miso soup large", "size" : "large", "vegetarian" : "", "price" : "280"},
+	{"name" : "wonton soup small", "size" : "small", "vegetarian" : "", "price" : "185"},
+	{"name" : "wonton soup large", "size" : "large", "vegetarian" : "", "price" :  "315"},
+	{"name" : "hot & sour soup small", "size" : "small", "vegetarian" : "", "price" : "200"},
+	{"name" : "hot & sour soup large", "size" : "large", "vegetarian" : "", "price" :  "385"},
+	{"name" : "szechuan wonton 14 pc", "size": "one", "555"}
+]
+
+"home made rice dishes" :
+[
+	{"name" : "sliced fish with black bean sauce", "vegetarian" : "no", "price" : "655"},
+	{"name" : "sliced chicken with black bean sauce",  "vegetarian" : "", "price" : "635"},
+	{"name" : "beef with pickled mustard green", "vegetarian" : "", "price" : "645"},
+	{"name" : "shredded pork with pickled mustard green", "vegetarian" : "", "price" : "635"},
+	{"name" : "shrimp with black pepper sauce", "vegetarian" : "", "price" : "655"},
+	{"name" : "shredded beef with black pepper sauce", "vegetarian" : "", "price" : "645"},
+	{"name" : "chicken fillet with baclk pepper sauce", "vegetarian" : "", "price" : "635"},
+	{"name" : "sesame chicken", "vegetarian" : "", "price" : "635"},
+	{"name" : "general tso's chicken", "vegetarian" : "", "price" : "635"},
+	{"name" : "stir-fry chinese eggplant", "vegetarian" : "", "price" : "605"},
+	{"name" : "sliced pork with chinese eggplant", "vegetarian" : "", "price" : "635"},
+	{"name" : "ground pork with chinese eggplant in garlic sauce", "vegetarian" : "", "price" : "605"}
+]
+
+"fried rice protein" :
+[
+	{"name" : "shrimp", "vegetarian" : "no", "price" : "605"},
+	{"name" : "chicken", "vegetarian" : "no", "price" : "605"},
+	{"name" : "fried chicken leg", "vegetarian" : "no", "price" : "635"},
+	{"name" : "fried pork chop", "vegetarian" : "", "price" : "635"},
+	{"name" : "braised beef", "vegetarian" : "no", "price" : "605"},
+	{"name" : "fried tofu skin with vegetables", "vegetarian" : "no", "price" : "605"},
+	{"name" : "crispy tender chicken", "vegetarian" : "no", "price" : "635"},
+	{"name" : "vegetables", "vegetarian" : "no", "price" : "605"},
+	{"name" : "roast pork", "vegetarian" : "no", "price" : "605"},
+	{"name" : "house special(chicken, roast pork, shrimp & nappa", "vegetarian" : "no", "price" : "655"},
+	{"name" : "fried chicken wings", "vegetarian" : "no", "655"}
+]
+
+"fried rice sauce" :
+[
+	{"name" : "plain fried rice", "price" : "0"},
+	{"name" : "fried rice with sauce", "price" : "0"},
+	{"name" : "curry fried rice", "price" : "65"}
+]
+
+"brown sauce protein"
+[
+	{"name" : "shrimp", "vegetarian" : "no", "price" : "555"},
+	{"name" : "chicken", "vegetarian" : "no", "price" : "555"},
+	{"name" : "fried chicken leg", "vegetarian" : "no", "price" : "585"},
+	{"name" : "fried pork chop", "vegetarian" : "no", "price" : "585"},
+	{"name" : "braised beef", "vegetarian" : "no", "price" : "555"},
+	{"name" : "shrimp & pork dumping", "vegetarian" : "no", "price" : "555"},
+	{"name" : "crispy tender chicken", "vegetarian" : "no", "price" : "585"},
+	{"name" : "vegetables", "vegetarian" : "yes", "price" : "555"},
+	{"name" : "steamed pork dumplings", "vegetarian" : "no", "price" : "585"},
+	{"name" : "fried tofu skin", "vegetarian" : "yes", "price" : "555"},
+	{"name" : "steamed beef tendon", "vegetarian" : "no", "price" : "605"},
+	{"name" : "fried chicken wings", "vegetarian" : "no", "price" : "605"}
+]
+
+
+"brown sauce style"
+[
+	{"name" : "noodle soup"},
+	{"name" : "noodle with brown sauce"},
+	{"name" : "rice with brown sauce"}
+]
+
+"brown sauce carb"
+[
+	{"name" : "rice", "style" : "rice", "price" : "0"},
+	{"name" : "bean noodle", "style" : "noodle", "price" : "0"},
+	{"name" : "udon", "style" : "noodle", "price" : "35"},
+	{"name" : "pho", "style" : "noodle", "price" : "35"},
+	{"name" : "ho-fun", "style" : "noodle", "price" : "35"},
+	{"name" : "egg noodle", "style" : "noodle", "price" : "35"},
+]
+
+"noodle special dish"
+[
+	{"name" : "noodle with oyster", "vegetarian" : "no", "price" : "585"},
+	{"name" : "Cha Jang mein", "vegetarian" : "no", "price" : "555"},
+	{"name" : "hot sesame noodle", "vegetarian" : "yes", "price" : "555"},
+	{"name" : "cold sesame noodle" , "vegetarian" : "yes", "price" : "555"}
+]
