@@ -185,7 +185,6 @@ a:focus {
     }
 }
 
-<<<<<<< HEAD
 #about {
     display: table;
     width: 100%;
@@ -193,6 +192,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #AAAAAA;
+    background: url(../img/about-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -205,9 +205,8 @@ a:focus {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     color: #fff;
-    background: url(../img/about-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -215,7 +214,11 @@ a:focus {
     -o-background-size: cover;
 }
 
-=======
+.secondary-menu-button
+{
+    margin:0 auto;
+}
+
 .contact{
 
 }
@@ -225,7 +228,7 @@ a:focus {
     padding-left: 50px;
     padding-top: 20px;
 }
->>>>>>> refs/remotes/origin/master
+
 .btn-circle {
     width: 70px;
     height: 70px;
