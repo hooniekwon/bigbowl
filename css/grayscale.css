@@ -185,6 +185,7 @@ a:focus {
     }
 }
 
+<<<<<<< HEAD
 #about {
     display: table;
     width: 100%;
@@ -214,11 +215,15 @@ a:focus {
     -o-background-size: cover;
 }
 
+<<<<<<< HEAD
 .secondary-menu-button
 {
     margin:0 auto;
 }
 
+=======
+=======
+>>>>>>> master
 .contact{
 
 }
@@ -228,7 +233,11 @@ a:focus {
     padding-left: 50px;
     padding-top: 20px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
+>>>>>>> master
 .btn-circle {
     width: 70px;
     height: 70px;
