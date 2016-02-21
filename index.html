@@ -101,7 +101,7 @@
                 <div class="btn-group-vertical menu-buttons">
                 </div>
             </div>
-            <div class = "col-lg-9 secondary-menu-buttons">Balls
+            <div class = "col-lg-9 secondary-menu-buttons">
             </div>
         </div>
     </section>
@@ -187,12 +187,13 @@
                         var name = data.menu.categories[ID].info[0].parts[i];
 //                        console.log(name);
                         menuHTML += '<div class = "col-lg-' + (total / numChoices) + '">';
+                        menuHTML += '<div>' + data.menu.categories[ID].info[0].parts[i].name + '</div>';
                         menuHTML += '<div class="btn-group-vertical secondary-menu-buttons">';
                         console.log(data.menu.categories[ID].info[0].parts[i].choices.length);
 
                         for(j = 0; j < data.menu.categories[ID].info[0].parts[i].choices.length; j++)
                         {
-                             var name = data.menu.categories[ID].info[0].parts[i].choices[j];
+                             var name = data.menu.categories[ID].info[0].parts[i].choices[j].name;
                              menuHTML += '<button class="menu-button btn btn-primary" menu-panelid="'+ j +'">'+name+'</button>';
                         }
 

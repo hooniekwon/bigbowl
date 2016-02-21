@@ -1,15 +1,8 @@
 {
     "menu": {
-        "stir": "0",
-        "rice": "1",
-        "soup": "2",
-        "frice": "3",
-        "brown": "4",
-        "noodle": "5",
         "categories": [
             {
                 "name": "stir-fry noodles",
-                "key": "stir",
                 "info": [
                     {
                         "parts": [
@@ -92,8 +85,7 @@
                 ]
             },
             {
-                "name": "home-made rice dishes",
-                "key": "rice",
+                "name": "vegetable",
                 "info": [
                     {
                         "parts": [
@@ -101,28 +93,52 @@
                                 "name": "home made rice dish",
                                 "choices": [
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Broccoli w. Tofu Skin",
+                                        "price": "660",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Chinese Veg. With Tofuf Skin",
+                                        "price": "660",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Stir-fry Tofu in Garlic Sauce",
+                                        "price": "660",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Stir-fry Chinese Eggplant",
+                                        "price": "660",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
+                                        "name": "Mix Veg w. Mushroom & Tofu Skin",
+                                        "price": "675",
+                                        "vegetarian": ""
+                                    },                                    
+                                    {
+                                        "name": "Preserved Mustard Green w. Soy Tofu",
                                         "price": "",
+                                        "vegetarian": ""
+                                    },{
+                                        "name": "Soy Tofu w. Jalapeno",
+                                        "price": "675",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Chinese Eggplant in Garlic Sauce",
+                                        "price": "660",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Tofu w. Chinese Eggplant",
+                                        "price": "675",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Tofu w. Chinese Eggplant in Garlic Sauce",
+                                        "price": "675",
                                         "vegetarian": ""
                                     }
                                 ]
@@ -132,37 +148,450 @@
                 ]
             },
             {
-                "name": "soup and side dishes",
-                "key": "soup",
+                "name": "chicken",
                 "info": [
                     {
                         "parts": [
                             {
-                                "name": "soup and side dish",
+                                "name": "home made rice dish",
                                 "choices": [
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Chicken w. Black Bean Sauce",
+                                        "price": "685",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Fried Chicken Fillet w. Black Pepper Sauce",
+                                        "price": "685",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Grilled Chicken Fillet w. Teriyaki Sauce",
+                                        "price": "685",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Sesame Chicken",
+                                        "price": "685",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "General Tso's Chicken",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Chicken w. Broccoli",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Chicken w. Seasonal Vegetables",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Chicken w. Jalapeno",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Chicken w. Scallion",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Scrambled Egg w. Tomato & Chicken",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "beef",
+                "info": [
+                    {
+                        "parts": [
+                            {
+                                "name": "home made rice dish",
+                                "choices": [
+                                    {
+                                        "name": "Beef w. Black Bean Sauce",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Beef w. Black Pepper Sauce",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Beef w. Seasonal Vegetable",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Beef w. Tofu in Oyster Sauce",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Beef w. Scallion",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Beef w. Pickled Mustard Green",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Beef w. Broccoli",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Beef w. Mushroom",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Beef w. Jalapeno",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Scrambled Egg w. Tomato & Beef",
+                                        "price": "735",
+                                        "vegetarian": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "pork",
+                "info": [
+                    {
+                        "parts": [
+                            {
+                                "name": "home made rice dish",
+                                "choices": [
+                                    {
+                                        "name": "Preserved Mustard Green w. Shredded Pork",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Pickled Mustard Green w. Shredded Pork",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Sliced Pork w. Mushroom",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Sliced Pork w. Mushroom",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Sliced Pork w. Chinese Eggplant",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Sliced Pork w. Seasonal Veg.",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Ma Po Tofu",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Ground Pork w. Chinese Eggplant",
+                                        "price": "685",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Shredded Pork w. Jalapeno",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Ground Pork w. Tofu in Garlic Sauce",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "seafood",
+                "info": [
+                    {
+                        "parts": [
+                            {
+                                "name": "home made rice dish",
+                                "choices": [
+                                    {
+                                        "name": "Fish w. Black Bean Sauce",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fish w. Chinese Eggplant in Black Bean Sauce",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fish w. Seasonal Vegetable",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fish w. Tofu in Oyster Sauce",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Squid w. Black Bean Sauce",
+                                        "price": "725",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Squid w. Pickled Mustard Green",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fish w. Broccoli",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Shrimp w. Broccoli",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Shrimp w. Seasonal Vegetable",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Scrambled Egg. w. Tomato & Shrimp",
+                                        "price": "755",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Shrimp w. Black Pepper Sauce",
+                                        "price": "715",
+                                        "vegetarian": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Soup",
+                "info": [
+                    {
+                        "parts": [
+                            {
+                                "name": "Soup",
+                                "choices": [
+                                    {
+                                        "name": "Miso Soup Small",
+                                        "price": "200",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Miso Soup Large",
+                                        "price": "350",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Wonton Soup Small",
+                                        "price": "250",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Wonton Soup Large",
+                                        "price": "425",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Hot & Sour Soup Small",
+                                        "price": "250",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Hot & Sour Soup Large",
+                                        "price": "425",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Wonton Soup w. Seaweed",
+                                        "price": "495",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Dumpling Soup w. Seaweed",
+                                        "price": "555",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Wonton Dumplin Fish Ball w. Seaweed",
+                                        "price": "605",
+                                        "vegetarian": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "name": "Side Orders",
+                "info": [
+                    {
+                        "parts": [
+                            {
+                                "name": "Side Orders",
+                                "choices": [
+                                    {
+                                        "name": "Chicken Spring Roll (2)",
+                                        "price": "225",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Vegetable Spring Roll (2)",
+                                        "price": "225",
+                                        "vegetarian": "yes"
+                                    },
+                                    {
+                                        "name": "Steamed Pork Dumpling (8)",
+                                        "price": "425",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Steamed Veg. Dumpling (8)",
+                                        "price": "425",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fried Pork Dumpling",
+                                        "price": "455",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fried Vegetable Dumpling",
+                                        "price": "455",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Steamed Buns",
+                                        "price": "275",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fried Buns",
+                                        "price": "325",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fried Tofu",
+                                        "price": "355",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fried Tofu Skin",
+                                        "price": "325",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fried Red Bean Sesame Ball",
+                                        "price": "395",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fried Shrimp & Pork Wonton",
+                                        "price": "395",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Crab Meat Fried Wonton",
+                                        "price": "355",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fried Chicken Leg",
+                                        "price": "395",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Crispy Tender Chicken",
+                                        "price": "395",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fried Chicken Wings (6)",
+                                        "price": "395",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Hot Wings (6)",
+                                        "price": "395",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Garlic Butter Wings (6)",
+                                        "price": "455",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Szechuan Wonton",
+                                        "price": "655",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Chinese Vegetables",
+                                        "price": "425",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Spicy Beef Tendon",
+                                        "price": "425",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Cold & Spiced Sliced Beef",
+                                        "price": "425",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Steamed Rice",
+                                        "price": "125",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Side-Order/Extra Sauce",
+                                        "price": "75",
                                         "vegetarian": ""
                                     }
                                 ]
@@ -173,7 +602,6 @@
             },
             {
                 "name": "fried rice",
-                "key": "frice",
                 "info": [
                     {
                         "parts": [
@@ -181,16 +609,52 @@
                                 "name": "fried rice protein",
                                 "choices": [
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Shrimp",
+                                        "price": "715"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Chicken",
+                                        "price": "655"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Fried Chicken Leg",
+                                        "price": "695"
+                                    },
+                                    {
+                                        "name": "Fried Pork Chop",
+                                        "price": "695"
+                                    },
+                                    {
+                                        "name": "Braised Beef",
+                                        "price": "655"
+                                    },
+                                    {
+                                        "name": "Fried Tofu Skin with Vegetable",
+                                        "price": "655"
+                                    },
+                                    {
+                                        "name": "Tender Crispy Chicken",
+                                        "price": "695"
+                                    },
+                                    {
+                                        "name": "Vegetables & Mushroom",
+                                        "price": "655"
+                                    },
+                                    {
+                                        "name": "Beef",
+                                        "price": "695"
+                                    },
+                                    {
+                                        "name": "Roast Pork",
+                                        "price": "655"
+                                    },
+                                    {
+                                        "name": "House Special",
+                                        "price": "735"
+                                    },
+                                    {
+                                        "name": "Fried Chicken Wings",
+                                        "price": "715"
                                     }
                                 ]
                             },
@@ -198,16 +662,16 @@
                                 "name": "fried rice sauce",
                                 "choices": [
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Plain Fried Rice (No Soy Sauce)",
+                                        "price": "0"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Fried Rice with Soy Sauce",
+                                        "price": "0"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Curry Fried Rice",
+                                        "price": "65"
                                     }
                                 ]
                             }
@@ -217,7 +681,6 @@
             },
             {   
                 "name":"brown sauce",
-                "key": "brown",
                 "info":[
                     {
                         "parts": [
@@ -225,28 +688,54 @@
                                 "name": "brown sauce protein",
                                 "choices": [
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Shrimp",
+                                        "price": "655"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Chicken",
+                                        "price": "605"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Fried Chicken Leg",
+                                        "price": "655"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Fried Pork Chop",
+                                        "price": "655"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Braised Beef",
+                                        "price": "625"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Shrimp & Pork Wontons",
+                                        "price": "625"
+                                    },
+                                    {
+                                        "name": "Crispy Tender Chicken",
+                                        "price": "655"
+                                    },
+                                    {
+                                        "name": "Vegetable & Mushroom",
+                                        "price": "605",
+                                        "Vegetarian":"yes"
+                                    },
+                                    {
+                                        "name": "Steamed Pork Dumplings",
+                                        "price": "655"
+                                    },
+                                    {
+                                        "name": "Fried Tofu Skin",
+                                        "price": "625",
+                                        "Vegetarian":"yes"
+                                    },
+                                    {
+                                        "name": "Steamed Beef Tendon",
+                                        "price": "655"
+                                    },
+                                    {
+                                        "name": "Fried Chicken Wings",
+                                        "price": "655"
                                     }
                                 ]
                             },
@@ -254,27 +743,15 @@
                                 "name": "brown sauce style",
                                 "choices": [
                                     {
-                                        "name": "",
+                                        "name": "Noodle Soup",
                                         "price": ""
                                     },
                                     {
-                                        "name": "",
+                                        "name": "Noodle with Brown Sauce",
                                         "price": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
-                                    },
-                                    {
-                                        "name": "",
-                                        "price": ""
-                                    },
-                                    {
-                                        "name": "",
-                                        "price": ""
-                                    },
-                                    {
-                                        "name": "",
+                                        "name": "Rice with Brown Sauce",
                                         "price": ""
                                     }
                                 ]
@@ -283,28 +760,44 @@
                                 "name": "brown sauce carb",
                                 "choices": [
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Rice",
+                                        "price": "0",
+                                        "style":"rice"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Regular Noodle",
+                                        "price": "0",
+                                        "style":"noodle"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Rice Noodle",
+                                        "price": "0",
+                                        "style":"noodle"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Udon",
+                                        "price": "40",
+                                        "style":"noodle"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Pho",
+                                        "price": "40",
+                                        "style":"noodle"
                                     },
                                     {
-                                        "name": "",
-                                        "price": ""
+                                        "name": "Ho-fun",
+                                        "price": "40",
+                                        "style":"noodle"
+                                    },
+                                    {
+                                        "name": "egg noodle",
+                                        "price": "40",
+                                        "style":"noodle"
+                                    },
+                                    {
+                                        "name": "bean noodle",
+                                        "price": "40",
+                                        "style":"noodle"
                                     }
                                 ]
                             }
@@ -314,7 +807,6 @@
             },
             {
                 "name":"noodle special",
-                "key": "noodle",
                 "info":[
                     {
                         "parts": [
@@ -322,28 +814,117 @@
                                 "name": "noodle special",
                                 "choices": [
                                     {
-                                        "name": "",
+                                        "name": "Singapore Rice Noodle",
+                                        "price": "795",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Amoy Stir-fry Noodle",
+                                        "price": "735",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Thai Stir-fry Pho Noodle",
+                                        "price": "795",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Stir-fry Beef Ho Fun with Black Bean Sauce",
+                                        "price": "795",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Stir-fry Chicken Ho Fun with Black Bean Sauce",
                                         "price": "",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
+                                        "name": "Cha Jang Mein",
+                                        "price": "625",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Hot Sesame Noodle",
+                                        "price": "595",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Cold Sesame Noodle",
+                                        "price": "595",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fish w. Pickled Mustard Green Noodle Soup",
+                                        "price": "755",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Shredded Pork w. Preserved Mustard Green Rice Noodle Soup",
+                                        "price": "735",
+                                        "vegetarian": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"drink",
+                "info":[
+                    {
+                        "parts": [
+                            {
+                                "name": "drink",
+                                "choices": [
+                                    {
+                                        "name": "Hong Kong Style Milk Tea",
+                                        "price": "235",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Hong Kong Style Coffee",
+                                        "price": "235",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Ovaltine",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Horlicks",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Stir-fry Chicken Ho Fun with Black Bean Sauce",
                                         "price": "",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Cha Jang Mein",
+                                        "price": "625",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Hot Sesame Noodle",
+                                        "price": "595",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "",
-                                        "price": "",
+                                        "name": "Cold Sesame Noodle",
+                                        "price": "595",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fish w. Pickled Mustard Green Noodle Soup",
+                                        "price": "755",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Shredded Pork w. Preserved Mustard Green Rice Noodle Soup",
+                                        "price": "735",
                                         "vegetarian": ""
                                     }
                                 ]
