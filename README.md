@@ -13,5 +13,5 @@ This website is for Big Bowl Noodle House in State College, PA
 
 ## Creators
 
-Hoonie Kwon
-Taylor Nodell
+* Hoonie Kwon
+* Taylor Nodell
