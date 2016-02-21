@@ -4,9 +4,9 @@ This website is for Big Bowl Noodle House in State College, PA
 
 ## References
 
-*Greyscale template
-*jquery
-*Bootstrap
+* Greyscale template
+* jquery
+* Bootstrap
 
 ## Bugs and Issues
 
