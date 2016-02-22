@@ -1,5 +1,4 @@
-{
-    "menu": {
+var menu = {
         "categories": [
             {
                 "name": "stir-fry noodles",
@@ -744,15 +743,15 @@
                                 "choices": [
                                     {
                                         "name": "Noodle Soup",
-                                        "price": ""
+                                        "price": "0"
                                     },
                                     {
                                         "name": "Noodle with Brown Sauce",
-                                        "price": ""
+                                        "price": "0"
                                     },
                                     {
                                         "name": "Rice with Brown Sauce",
-                                        "price": ""
+                                        "price": "0"
                                     }
                                 ]
                             },
@@ -835,7 +834,7 @@
                                     },
                                     {
                                         "name": "Stir-fry Chicken Ho Fun with Black Bean Sauce",
-                                        "price": "",
+                                        "price": "795",
                                         "vegetarian": ""
                                     },
                                     {
@@ -898,33 +897,203 @@
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "Stir-fry Chicken Ho Fun with Black Bean Sauce",
-                                        "price": "",
+                                        "name": "Lemon with Coke",
+                                        "price": "235",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "Cha Jang Mein",
-                                        "price": "625",
+                                        "name": "Lemon with Sweetened Tea",
+                                        "price": "235",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "Hot Sesame Noodle",
-                                        "price": "595",
+                                        "name": "Lemon with Honey",
+                                        "price": "235",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "Cold Sesame Noodle",
-                                        "price": "595",
+                                        "name": "Citron Honey Tea",
+                                        "price": "265",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "Fish w. Pickled Mustard Green Noodle Soup",
-                                        "price": "755",
+                                        "name": "Jujube Honey Tea",
+                                        "price": "265",
                                         "vegetarian": ""
                                     },
                                     {
-                                        "name": "Shredded Pork w. Preserved Mustard Green Rice Noodle Soup",
-                                        "price": "735",
+                                        "name": "Hot Jasmine Tea",
+                                        "price": "100",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Hot Oolong Tea",
+                                        "price": "100",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Hot Green Tea",
+                                        "price": "100",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Fountain Soda",
+                                        "price": "199",
+                                        "vegetarian": ""
+                                    },
+
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"bubble tea",
+                "info":[
+                    {
+                        "parts": [
+                            {
+                                "name": "bubble tea",
+                                "choices": [
+                                    {
+                                        "name": "Black Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Jasmine Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Almond Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": " Coconut Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Barley Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Peanut Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Thai Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Ginger Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Strawberry Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Mint Green Milk Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Honey Green Tea",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Taro",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Honeydew",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Cappuccino",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Vanilla Latte",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Chocolate Milk",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Coconut Snow",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Papaya",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Sesame",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Blueberry",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Grape",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Green Apple",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Kiwi",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Kumquat",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Lychee",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Mango",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Grape",
+                                        "price": "265",
+                                        "vegetarian": ""
+                                    },
+                                    {
+                                        "name": "Grape",
+                                        "price": "265",
                                         "vegetarian": ""
                                     }
                                 ]
@@ -935,4 +1104,3 @@
             }
         ]
     }
-}

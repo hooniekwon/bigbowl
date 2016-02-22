@@ -38,7 +38,7 @@ p {
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 25px;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -185,14 +185,13 @@ a:focus {
     }
 }
 
-<<<<<<< HEAD
 #about {
     display: table;
     width: 100%;
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #AAAAAA;
+    color: #ffff;
     background: url(../img/about-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -214,16 +213,26 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
-
-<<<<<<< HEAD
-.secondary-menu-button
-{
-    margin:0 auto;
+.menuMargin{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
-=======
-=======
->>>>>>> master
+.menuBtnMargin{
+    margin: 10px;
+}
+.secondary-menu-button
+{
+    position: center;
+}
+
+.hours{
+    float: right;
+    position: relative;
+    z-index: 1;
+    padding-top: 10px;
+    padding-right: 50px;
+}
 .contact{
 
 }
@@ -231,13 +240,9 @@ a:focus {
     position: absolute;
     z-index: 1;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/remotes/origin/master
->>>>>>> master
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -295,7 +300,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -329,8 +334,9 @@ a:focus {
 }
 
 #map {
-    width: 100%;
+    width: 105%;
     height: 400px;
+    position: absolute;
 
 }
 
@@ -345,6 +351,7 @@ a:focus {
 
     #map {
         height: 400px;
+        position: absolute;
 
     }
 }
@@ -371,6 +378,11 @@ a:focus {
     outline: 0;
     color: #000;
     background-color: #42dca3;
+}
+
+.menuMargin{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 ul.banner-social-buttons {
