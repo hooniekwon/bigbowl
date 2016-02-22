@@ -191,7 +191,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #AAAAAA;
+    color: #ffff;
     background: url(../img/about-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -212,6 +212,10 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.menuMargin{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .secondary-menu-button
