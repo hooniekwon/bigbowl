@@ -218,6 +218,9 @@ a:focus {
     padding-bottom: 10px;
 }
 
+.menuBtnMargin{
+    margin: 10px;
+}
 .secondary-menu-button
 {
     position: center;
