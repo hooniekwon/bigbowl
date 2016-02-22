@@ -38,7 +38,7 @@ p {
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 25px;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -223,6 +223,13 @@ a:focus {
     position: center;
 }
 
+.address{
+    float: right;
+    position: relative;
+    z-index: 1;
+    padding-top: 10px;
+    padding-right: 50px;
+}
 .contact{
 
 }
@@ -230,7 +237,7 @@ a:focus {
     position: absolute;
     z-index: 1;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .btn-circle {
@@ -290,7 +297,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -324,8 +331,9 @@ a:focus {
 }
 
 #map {
-    width: 100%;
+    width: 105%;
     height: 400px;
+    position: absolute;
 
 }
 
@@ -340,6 +348,7 @@ a:focus {
 
     #map {
         height: 400px;
+        position: absolute;
 
     }
 }
