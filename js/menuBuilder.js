@@ -54,7 +54,7 @@ var getJSON = function(data) {
                     menuHTML += '<button class="menu-button btn btn-primary" menu-panelid="' + j + '">' + name + "\t" + price + '</button>';
                 }
 
-                menuHTML += '</div></div>';
+                menuHTML += '</div></div></div>';
             }
             $('.secondary-menu-buttons').html(menuHTML);
 
