@@ -364,6 +364,11 @@ a:focus {
     background-color: #42dca3;
 }
 
+.menuMargin{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
