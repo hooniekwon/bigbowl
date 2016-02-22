@@ -34,11 +34,8 @@ var getJSON = function(data) {
                 var name = data.categories[ID].info[0].parts[i];
                 menuHTML += '<div class = "col-lg-' + (total / numChoices) + '">';
                 menuHTML += '<h2>' + data.categories[ID].info[0].parts[i].name + '</h2>';
-<<<<<<< HEAD
                 menuHTML += '<div class="btn-group-vertical secondary-menu-buttons menuMargin">';
-=======
                 menuHTML += '<div class="btn-group-vertical secondary-menu-buttons">';
->>>>>>> 88bb5b139b5b8db2a6407e293d6ff20d1e1df915
 
                 for (j = 0; j < data.categories[ID].info[0].parts[i].choices.length; j++) {
                     name = data.categories[ID].info[0].parts[i].choices[j].name;
