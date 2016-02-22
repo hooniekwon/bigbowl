@@ -1,5 +1,4 @@
-{
-    "menu": {
+var menu = {
         "categories": [
             {
                 "name": "stir-fry noodles",
@@ -935,4 +934,3 @@
             }
         ]
     }
-}
