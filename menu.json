@@ -1,12 +1,12 @@
 var menu = {
         "categories": [
             {
-                "name": "Stir-fry noodles",
+                "name": "Stir-fry Noodles",
                 "info": [
                     {
                         "parts": [
                             {
-                                "name": "tir-fry protein",
+                                "name": "stir-fry protein",
                                 "choices": [
                                     {
                                         "name": "shrimp",
