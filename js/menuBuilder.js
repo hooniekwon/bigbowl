@@ -1,48 +1,20 @@
 /*Menu Builder Function*/
-var getJSON = function(data) {
+var getJSON = function(menu) {
 
     console.log("json loaded");
-    var menuHTML = "";
-    for (i = 0; i < data.categories.length; i++) {
-        var name = data.categories[i].name;
-        menuHTML += '\n' + '<button class="menu-button btn btn-primary" menu-panelid="' + i + '">' + name + '</button>';
-    }
+    menu.categories.forEach(function(categories){
+       var name = categories.name;
+       /*Create an element and give it the name*/
+       var elem = document.createElement("p");
+       var textNode = document.createTextNode(name);
+       elem.appendChild(textNode);
+       /*Put that element where it belongs*/
+       document.getElementById("menu").appendChild(elem);
+       /*Add classes for style*/
+       elem.className = "col-md-3 ";
+       elem.className += "menuCategories";
+       /*Add  click event to the element*/
 
-    $('.menu-buttons').html(menuHTML);
-
-    $(function() {
-        $('.menu-button').on('click', function(e) {
-            e.preventDefault();
-            var menuID = $(this).attr('menu-panelid');
-            var ID = parseInt(menuID);
-            var numChoices = parseInt(data.categories[ID].info[0].parts.length);
-
-            var total = 9;
-
-            if (numChoices == 2) {
-                var menuHTML = '<div class = "col-lg-1"></div>';
-                $('.secondary-menu-buttons').html(menuHTML);
-                total = 8;
-            }
-
-            menuHTML = "";
-
-            for (i = 0; i < numChoices; i++) {
-                var name = data.categories[ID].info[0].parts[i];
-                menuHTML += '<div class = " menuBtnMargin col-lg-' + (total / numChoices) + '">';
-                menuHTML += '<h2>' + data.categories[ID].info[0].parts[i].name + '</h2>';
-                menuHTML += '<div class="btn-group-vertical secondary-menu-buttons">';
-
-                for (j = 0; j < data.categories[ID].info[0].parts[i].choices.length; j++) {
-                    name = data.categories[ID].info[0].parts[i].choices[j].name;
-                    menuHTML += '<button class="menu-button btn btn-primary" menu-panelid="' + j + '">' + name + '</button>';
-                }
-
-                menuHTML += '</div></div>';
-            }
-            $('.secondary-menu-buttons').html(menuHTML);
-
-        });
     });
 };
 getJSON(menu);

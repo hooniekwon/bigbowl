@@ -1,12 +1,12 @@
 var menu = {
         "categories": [
             {
-                "name": "stir-fry noodles",
+                "name": "Stir-fry noodles",
                 "info": [
                     {
                         "parts": [
                             {
-                                "name": "stir-fry protein",
+                                "name": "tir-fry protein",
                                 "choices": [
                                     {
                                         "name": "shrimp",
@@ -84,7 +84,7 @@ var menu = {
                 ]
             },
             {
-                "name": "vegetable",
+                "name": "Vegetable",
                 "info": [
                     {
                         "parts": [
@@ -115,7 +115,7 @@ var menu = {
                                         "name": "Mix Veg w. Mushroom & Tofu Skin",
                                         "price": "675",
                                         "vegetarian": ""
-                                    },                                    
+                                    },
                                     {
                                         "name": "Preserved Mustard Green w. Soy Tofu",
                                         "price": "",
@@ -147,7 +147,7 @@ var menu = {
                 ]
             },
             {
-                "name": "chicken",
+                "name": "Chicken",
                 "info": [
                     {
                         "parts": [
@@ -211,7 +211,7 @@ var menu = {
                 ]
             },
             {
-                "name": "beef",
+                "name": "Beef",
                 "info": [
                     {
                         "parts": [
@@ -275,7 +275,7 @@ var menu = {
                 ]
             },
             {
-                "name": "pork",
+                "name": "Pork",
                 "info": [
                     {
                         "parts": [
@@ -339,7 +339,7 @@ var menu = {
                 ]
             },
             {
-                "name": "seafood",
+                "name": "Seafood",
                 "info": [
                     {
                         "parts": [
@@ -600,7 +600,7 @@ var menu = {
                 ]
             },
             {
-                "name": "fried rice",
+                "name": "Fried Rice",
                 "info": [
                     {
                         "parts": [
@@ -678,8 +678,8 @@ var menu = {
                     }
                 ]
             },
-            {   
-                "name":"brown sauce",
+            {
+                "name":"Brown Sauce",
                 "info":[
                     {
                         "parts": [
@@ -805,7 +805,7 @@ var menu = {
                 ]
             },
             {
-                "name":"noodle special",
+                "name":"Noodle Special",
                 "info":[
                     {
                         "parts": [
@@ -869,7 +869,7 @@ var menu = {
                 ]
             },
             {
-                "name":"drink",
+                "name":"Drink",
                 "info":[
                     {
                         "parts": [
@@ -949,7 +949,7 @@ var menu = {
                 ]
             },
             {
-                "name":"bubble tea",
+                "name":"Bubble Tea",
                 "info":[
                     {
                         "parts": [

@@ -243,6 +243,10 @@ a:focus {
     padding-top: 10px;
 }
 
+.menuCategories{
+    margin: 10px;
+
+}
 .btn-circle {
     width: 70px;
     height: 70px;
