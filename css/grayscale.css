@@ -247,10 +247,18 @@ a:focus {
     margin: 10px;
 
 }
+.menuMain{
+
+}
 .menuMain :hover  {
-    color: red;
     cursor: pointer;
     cursor: hand;
+    font-size: 30px;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
 
 }
 .subMenus{
