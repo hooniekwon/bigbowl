@@ -247,6 +247,12 @@ a:focus {
     margin: 10px;
 
 }
+.menuMain :hover  {
+    color: red;
+    cursor: pointer;
+    cursor: hand;
+
+}
 .subMenus{
     margin-top: 20px;
 }

@@ -1,7 +1,6 @@
 /*Menu Builder Function*/
 var getJSON = function(menu) {
 
-    console.log("json loaded");
     menu.categories.forEach(function(categories){
        var name = categories.name;
        /*Create an element and give it the name*/
@@ -28,23 +27,23 @@ var displaySubMenu = function(category){
     for (var i = 0; i < partsLength; i++) {
         var choices = category.info[0].parts[i].choices;
         choices.forEach(function(obj){
-        /*Create an element and give it the name*/
-        var elem = document.createElement("p");
-        var textNode = document.createTextNode(obj.name+" "+obj.price);
-        elem.appendChild(textNode);
-        /*Put it in the new subMenu*/
-        document.getElementById("subMenu" + i).appendChild(elem);
-        /*Add classes for style*/
-        elem.className += "menuCategories";
-            if (partsLength<3){
-                document.getElementById("subMenu0").className = "col-md-4";
-                document.getElementById("subMenu1").className = "col-md-4";
-            }
-            else{
-                document.getElementById("subMenu0").className = "col-md-3";
-                document.getElementById("subMenu1").className = "col-md-3";
-            }
-     });
+            /*Create an element and give it the name*/
+            var elem = document.createElement("p");
+            var textNode = document.createTextNode(obj.name+" "+obj.price);
+            elem.appendChild(textNode);
+            /*Put it in the new subMenu*/
+            document.getElementById("subMenu" + i).appendChild(elem);
+            /*Add classes for style*/
+            elem.className += "menuCategories";
+                if (partsLength<3){
+                    document.getElementById("subMenu0").className = "col-md-4";
+                    document.getElementById("subMenu1").className = "col-md-4";
+                }
+                else {
+                    document.getElementById("subMenu0").className = "col-md-3";
+                    document.getElementById("subMenu1").className = "col-md-3";
+                }
+        });
     }
 }
 getJSON(menu);
