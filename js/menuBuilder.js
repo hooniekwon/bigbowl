@@ -15,25 +15,28 @@ var getJSON = function(menu) {
        /*Add  click event to the element*/
        elem.addEventListener("click", function(){
         /* on click, first clear whatever is there, then display new menu*/
-        document.getElementById("subMenus").innerHTML= "";
+        document.getElementById("subMenu0").innerHTML= "";
+        document.getElementById("subMenu1").innerHTML= "";
+        document.getElementById("subMenu2").innerHTML= "";
         displaySubMenu(categories);
         });
     });
 };
 
 var displaySubMenu = function(category){
-    var choices = category.info[0].parts[0].choices;
-    console.log(choices);
-    choices.forEach(function(obj){
+    var partsLength = category.info[0].parts.length;
+    for (var i = 0; i < partsLength; i++) {
+        var choices = category.info[0].parts[i].choices;
+        choices.forEach(function(obj){
         /*Create an element and give it the name*/
         var elem = document.createElement("p");
         var textNode = document.createTextNode(obj.name+" "+obj.price);
         elem.appendChild(textNode);
         /*Put it in the new subMenu*/
-        document.getElementById("subMenus").appendChild(elem);
+        document.getElementById("subMenu" + i).appendChild(elem);
         /*Add classes for style*/
-       elem.className += "menuCategories";
-    });
-
+        elem.className += "menuCategories";
+     });
+    }
 }
 getJSON(menu);
