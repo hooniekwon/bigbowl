@@ -24,25 +24,15 @@ var getJSON = function(menu) {
 
 var displaySubMenu = function(category){
     var partsLength = category.info[0].parts.length;
-    console.log(partsLength);
+/*change size of subMenus depending on how many there are*/
     if (partsLength===3){
-                    document.getElementById("subMenu0").innerHTML= "<h2>Choose One</h2>";
-                    document.getElementById("subMenu1").innerHTML= "<h2>Choose One</h2>";
-                    document.getElementById("subMenu2").innerHTML= "<h2>Choose One</h2>";
-                    document.getElementById("subMenu0").className = "col-md-3";
-                    document.getElementById("subMenu1").className = "col-md-3";
-                    document.getElementById("subMenu2").className = "col-md-3";
+                    threeSubMenus();
                 }
                 else if(partsLength===2) {
-                    document.getElementById("subMenu0").innerHTML= "<h2>Choose One</h2>";
-                    document.getElementById("subMenu1").innerHTML= "<h2>Choose One</h2>";
-                    document.getElementById("subMenu0").className = "col-md-4";
-                    document.getElementById("subMenu1").className = "col-md-4";
+                    twoSubMenus();
                 }
                 else{
-                    document.getElementById("subMenu0").innerHTML= "<h2>Choose One</h2>";
-                    document.getElementById("subMenu0").className = "col-md-4";
-                    document.getElementById("subMenu1").className = "col-md-4";
+                    oneSubMenu();
                 }
     for (var i = 0; i < partsLength; i++) {
         var choices = category.info[0].parts[i].choices;
@@ -58,5 +48,24 @@ var displaySubMenu = function(category){
 
         });
     }
+}
+var threeSubMenus = function(){
+    document.getElementById("subMenu0").innerHTML= "<h2>Choose One</h2>";
+    document.getElementById("subMenu1").innerHTML= "<h2>Choose One</h2>";
+    document.getElementById("subMenu2").innerHTML= "<h2>Choose One</h2>";
+    document.getElementById("subMenu0").className = "col-md-3";
+    document.getElementById("subMenu1").className = "col-md-3";
+    document.getElementById("subMenu2").className = "col-md-3";
+}
+var twoSubMenus = function(){
+    document.getElementById("subMenu0").innerHTML= "<h2>Choose One</h2>";
+    document.getElementById("subMenu1").innerHTML= "<h2>Choose One</h2>";
+    document.getElementById("subMenu0").className = "col-md-4";
+    document.getElementById("subMenu1").className = "col-md-4";
+}
+var oneSubMenu = function(){
+    document.getElementById("subMenu0").innerHTML= "<h2>Choose One</h2>";
+    document.getElementById("subMenu0").className = "col-md-4";
+    document.getElementById("subMenu1").className = "col-md-4";
 }
 getJSON(menu);
