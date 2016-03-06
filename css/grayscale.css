@@ -231,6 +231,8 @@ a:focus {
     padding-right: 50px;
 }
 .contact{
+    position: relative;
+    z-index: 1;
 
 }
 .contactText{
@@ -351,8 +353,9 @@ a:focus {
 
 #map {
     width: 105%;
-    height: 400px;
+    height: 100%;
     position: absolute;
+    z-index: 0;
 
 }
 
@@ -366,8 +369,10 @@ a:focus {
     }
 
     #map {
-        height: 400px;
+        height: 600px;
         position: absolute;
+        z-index: 0;
+
 
     }
 }
