@@ -184,7 +184,9 @@ a:focus {
         font-size: 26px;
     }
 }
-
+.specials{
+    background: grey;
+}
 #about {
     display: table;
     width: 100%;
