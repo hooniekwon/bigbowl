@@ -25,19 +25,31 @@ var getJSON = function(menu) {
 var displaySubMenu = function(category) {
     var partsLength = category.info[0].parts.length;
     /*Change size of subMenus depending on how many there are*/
-    if (partsLength === 3) {
-        threeSubMenus();
-    } else if (partsLength === 2) {
-        twoSubMenus();
-    } else {
-        oneSubMenu();
+
+    for(var i = 0; i < partsLength; i++)
+    {
+        document.getElementById("subMenu" + i).innerHTML = "<h2>Choose One</h2>";
+        if(partsLength == 3)
+        {
+            document.getElementById("subMenu" + i).className = "col-md-3";
+        }
+        if(partsLength == 2)
+		{
+			 document.getElementById("subMenu" + i).className = "col-md-4";
+		}
+        if(partsLength == 1)
+        {
+            document.getElementById("subMenu" + i).className = "col-md-4 col-md-offset-2";
+        }
     }
+
     for (var i = 0; i < partsLength; i++) {
         var choices = category.info[0].parts[i].choices;
         choices.forEach(function(obj) {
             /*Create an element and give it the name*/
             var elem = document.createElement("p");
-            var textNode = document.createTextNode(obj.name + " " + obj.price);
+            var price = "$" + obj.price.substring(0,obj.price.length - 2) + "." + obj.price.substring(obj.price.length - 2);
+            var textNode = document.createTextNode(obj.name + " " + price);
             elem.appendChild(textNode);
             /*Put it in the new subMenu*/
             document.getElementById("subMenu" + i).appendChild(elem);
@@ -46,23 +58,5 @@ var displaySubMenu = function(category) {
         });
     }
 };
-var threeSubMenus = function() {
-    document.getElementById("subMenu0").innerHTML = "<h2>Choose One</h2>";
-    document.getElementById("subMenu1").innerHTML = "<h2>Choose One</h2>";
-    document.getElementById("subMenu2").innerHTML = "<h2>Choose One</h2>";
-    document.getElementById("subMenu0").className = "col-md-3";
-    document.getElementById("subMenu1").className = "col-md-3";
-    document.getElementById("subMenu2").className = "col-md-3";
-};
-var twoSubMenus = function() {
-    document.getElementById("subMenu0").innerHTML = "<h2>Choose One</h2>";
-    document.getElementById("subMenu1").innerHTML = "<h2>Choose One</h2>";
-    document.getElementById("subMenu0").className = "col-md-4";
-    document.getElementById("subMenu1").className = "col-md-4";
-};
-var oneSubMenu = function() {
-    document.getElementById("subMenu0").innerHTML = "<h2>Choose One</h2>";
-    document.getElementById("subMenu0").className = "col-md-4";
-    document.getElementById("subMenu1").className = "col-md-4";
-};
+
 getJSON(menu);
